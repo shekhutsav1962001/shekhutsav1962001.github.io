@@ -1,0 +1,107 @@
+@import 'https://fonts.googleapis.com/css?family=Oxygen+Mono';
+/* $sweet-blue-primary: rgb(20, 80, 150);
+$sweet-monospaced: 'Oxygen Mono', monospace; */
+
+  .cart-row {
+    margin: auto;
+ 
+  }
+  .cart-row img.img-responsive { 
+    margin: 0 auto; 
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  .prc{ 
+  margin: auto;
+  
+  }
+  .it{ 
+    margin-left: 25px; 
+  }
+  .h3-price { 
+    color: rgb(20, 80, 150);
+     font-family: 'Oxygen Mono', monospace;
+     padding-top: 40px;
+  }
+  .form-group{
+    padding-top: 40px;
+    display: flex;
+  }
+  .cart-qty-input {
+    font-size: 1em;
+    font-family: 'Oxygen Mono', monospace;
+    margin-top: 10px;
+    padding: 10px;
+    width: 95%;
+    border: 1px solid black;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+    width: 35px;
+  }
+
+
+  @media (max-width: 320px) {
+    img{
+      margin-left: auto;
+   
+    }
+    .prc{
+      margin: auto;
+      padding-top: 0;
+   
+    }
+    .form-group{
+      padding-top: 10px;
+      margin: auto; 
+    }
+    
+    .h3-price{
+      padding-top: 2px;
+    }
+   
+  }
+
+
+  @media (max-width: 577px) {
+    img{
+      margin-left: auto;
+   
+    }
+    .prc{
+      margin: auto;
+      padding-top: 0;
+   
+    }
+    .form-group{
+      padding-top: 10px;
+      margin: auto; 
+      
+    }
+    
+    .h3-price{
+      padding-top: 2px;
+    }
+   
+  }
+
+  
+    .footer {
+      /* position: fixed; */
+      margin-top: 10px;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color : lightcyan;
+      color: black;
+      text-align: center;
+      font-family: 'Oxygen Mono', monospace;
+   }

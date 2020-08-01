@@ -1,0 +1,13 @@
+.card{
+    transition: 0.4s ease;  
+    margin-bottom: 20px;  
+}
+.card-body{
+    padding: 30px 0px !important;
+}
+
+.card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.7);
+    
+}
