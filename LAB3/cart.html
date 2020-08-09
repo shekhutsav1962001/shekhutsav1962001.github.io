@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='cart.css'>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <a href="uhome.html"><h2>goback</h2></a>
+        <div class="row">
+            <div class="column" >
+                <div class="cource">
+                    <div class="preview">
+                        <center>
+                            <img src="pic/16.jpg" alt="" class="img-responsive"></center>
+                        <h5 id="itemprice"><small>Total:- 600</small></h5>
+                    </div>
+
+                    <div class="info">
+                        <h6>Paneer pizza </h6>
+                        <h6>Size :- large</h6>
+                        <h6>Price :- 200Rs</h6>
+                        <div class="form-group">
+
+                            <div class="input-group-prepend">
+                                <button class="btn btn-dark btn-sm" onclick="sub('qty_input1')"><i class="fa fa-minus"></i></button>
+                            </div>
+                            <input type="number" id="qty_input1" class="form-control form-control-sm" value="1" min="1"
+                                style="margin-left: 2px; margin-right: 1px;">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-dark btn-sm" onclick="add('qty_input1')"><i class="fa fa-plus"></i></button>
+                            </div>
+                        </div>
+
+                        <button class="btnn"> <i class="fa fa-trash" aria-hidden="true"></i></button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="column" >
+                <div class="cource">
+                    <div class="preview">
+                        <center>
+                            <img src="pic/16.jpg" alt="" class="img-responsive"></center>
+                        <h5 id="itemprice"><small>Total:- 600</small></h5>
+                    </div>
+
+                    <div class="info">
+                        <h6>Paneer pizza </h6>
+                        <h6>Size :- large</h6>
+                        <h6>Price :- 200Rs</h6>
+                        <div class="form-group">
+
+                            <div class="input-group-prepend">
+                                <button class="btn btn-dark btn-sm" onclick="sub('qty_input2')"><i class="fa fa-minus"></i></button>
+                            </div>
+                            <input type="number" id="qty_input2" class="form-control form-control-sm" value="1" min="1"
+                                style="margin-left: 2px; margin-right: 1px;">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-dark btn-sm" onclick="add('qty_input2')"><i class="fa fa-plus"></i></button>
+                            </div>
+                        </div>
+                        <button class="btnn"> <i class="fa fa-trash" aria-hidden="true"></i></button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="column" >
+                <div class="cource">
+                    <div class="preview">
+                        <center>
+                            <img src="pic/16.jpg" alt="" class="img-responsive"></center>
+                        <h5 id="itemprice"><small>Total:- 600</small></h5>
+                    </div>
+
+                    <div class="info">
+                        <h6>Paneer pizza </h6>
+                        <h6>Size :- large</h6>
+                        <h6>Price :- 200Rs</h6>
+                        <div class="form-group">
+
+                            <div class="input-group-prepend">
+                                <button class="btn btn-dark btn-sm" onclick="sub('qty_input3')"><i class="fa fa-minus"></i></button>
+                            </div>
+                            <input type="number" id="qty_input3" class="form-control form-control-sm" value="1" min="1"
+                                style="margin-left: 2px; margin-right: 1px;">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-dark btn-sm" onclick="add('qty_input3')"><i class="fa fa-plus"></i></button>
+                            </div>
+                        </div>
+
+                        <button class="btnn"> <i class="fa fa-trash" aria-hidden="true"></i></button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="column" >
+                <div class="cource">
+                    <div class="preview">
+                        <center>
+                            <img src="pic/16.jpg" alt="" class="img-responsive"></center>
+                        <h5 id="itemprice"><small>Total:- 600</small></h5>
+                    </div>
+
+                    <div class="info">
+                        <h6>Paneer pizza </h6>
+                        <h6>Size :- large</h6>
+                        <h6>Price :- 200Rs</h6>
+                        <div class="form-group">
+
+                            <div class="input-group-prepend">
+                                <button class="btn btn-dark btn-sm" onclick="sub('qty_input4')"><i class="fa fa-minus"></i></button>
+                            </div>
+                            <input type="number" id="qty_input4" class="form-control form-control-sm" value="1" min="1"
+                                style="margin-left: 2px; margin-right: 1px;">
+                            <div class="input-group-prepend">
+                                <button class="btn btn-dark btn-sm" onclick="add('qty_input4')"><i class="fa fa-plus"></i></button>
+                            </div>
+                        </div>
+
+                        <button class="btnn"> <i class="fa fa-trash" aria-hidden="true"></i></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="cource"  style="background-color:#ccc;" id="lastcol">
+
+                <div class="info">
+
+                    <p>total = 1500Rs</p>
+                    <p>delivery charge = 50Rs</p>
+                    <p>grand total = 1550Rs</p>
+                    <button class="btnn" id="last">Check out</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/cart.js"></script>
+</body>
+
+</html>
