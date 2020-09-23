@@ -4,7 +4,7 @@ function abc(item) {
 
   if (item.dataset.val == "false") {
     item.dataset.val = "true";
-    audio.play();
+    // audio.play();
     var n = document.getElementById("notycount");
     m = parseInt(n.innerHTML) + 1;
     n.innerHTML = m;
@@ -16,6 +16,9 @@ function abc(item) {
 }
 function myfunc(item) {
 
-  // audio.play();
+  if(item.dataset.val=="false")
+  {
+    audio.play();
+  }
   abc(item);
 }
