@@ -10,7 +10,7 @@ function abc(item) {
     n.innerHTML = m;
   }
   else {
-    alert("ietm already in the cart!!");
+    alert("item already in the cart!!");
   }
 
 }
