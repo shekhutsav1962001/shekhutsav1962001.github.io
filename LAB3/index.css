@@ -54,6 +54,12 @@ ul li a{
     background-attachment: fixed;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-family: 'Pacifico', cursive;
+    color:#ffffff;
+    font-weight: bolder;
+    text-shadow:5px 5px 10px black;
+    font-size: larger;
+    
     /* clip-path: polygon(100% 0%,100% 75%,50% 100%,0% 75%,0% 0%); */
 }
 
@@ -175,9 +181,33 @@ p{
     font-size: larger;
 }
 
+#s5{
+    width:100%;
+    height: 400px;
+    background-image:url(pic/61.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    background-attachment: fixed;
+    color:#ffffff;
+    font-family: 'Pacifico', cursive;
+    font-weight: bolder;
+    text-shadow:5px 5px 10px black;
+    font-size: larger;
+    
+}
+
 /* caption remove  */
+/* remove s3 when */
 @media screen and (max-width: 992px) {
-    #s3,#s4{
+    #s3,#s4,#s5{
         display: none;
     }
+    
   }
+  @media screen and (max-width: 359px) {
+      #hdr{
+          display: none;
+      }
+      
+    }
