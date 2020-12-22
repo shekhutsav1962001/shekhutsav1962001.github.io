@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 body{
     background-color: #f1f1f1;
@@ -10,17 +10,10 @@ body{
 
 
 #particles-js{
-        position: absolute;
-    background-image: url("img/3.jpg");
+    background-image: url("img/5.jpg");
     background-size: cover;
-    width: 2000px;
-    /* height: 100vh ; */
-    height: 100%;
-
-  /* Center and scale the image nicely */
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  
 }
 
 .puff-in-center {
