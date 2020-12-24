@@ -104,12 +104,7 @@ h2 {
 	transform-origin: 0 0;
 }
 
-.running .line1 { 
-	-moz-transform:rotate(17deg);  
-	transform:rotate(17deg);   
-	-moz-animation:move  0.65s linear forwards; 
-	animation: move  0.65s linear forwards;
-}
+.running .line1 { -moz-transform:rotate(17deg);  transform:rotate(17deg);   -moz-animation:move  0.65s linear forwards; animation: move  0.65s linear forwards;}
 .running .line2 { -moz-transform:rotate(140deg); transform:rotate(140deg);  -moz-animation:move1 0.75s linear forwards; animation:move1  0.75s linear forwards;}
 .running .line3 { -moz-transform:rotate(235deg); transform:rotate(235deg);  -moz-animation:move2 0.9s linear forwards;  animation:move2  0.9s linear forwards;}
 .running .line4 { -moz-transform:rotate(315deg); transform:rotate(315deg);  -moz-animation:move3 0.5s linear forwards;  animation:move3  0.5s linear forwards;}
