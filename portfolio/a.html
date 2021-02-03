@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #e1e1e1;
+        }
+
+        .object {
+            /* animation: MoveUpDown 20s linear infinite; */
+            position: fixed;
+
+        }
+
+        /* mongo */
+        .object1 {
+            top: 200px;
+            right: 100px;
+            /* height: 60px; */
+            animation: MoveUpDown 20s linear infinite;
+        }
+
+        /* css */
+        .object2 {
+            bottom: 100px;
+            right: 200px;
+            height: 50px;
+            animation: MoveDownUp 15s linear infinite;
+        }
+
+        /* flutter */
+        .object3 {
+            bottom: 100px;
+            left: 50px;
+            height: 50px;
+            animation: MoveUpDown 20s linear infinite;
+        }
+
+        /* git */
+        .object4 {
+            top: 50%;
+            right: 20%;
+            height: 40px;
+            animation: MoveUpDown 15s linear infinite;
+        }
+
+        /* github */
+        .object5 {
+            top: 50%;
+            left: 10%;
+            height: 60px;
+            animation: MoveUpDown 10s linear infinite;
+        }
+
+
+        /* python */
+        .object6 {
+            top: 100px;
+            left: 100px;
+            height: 30px;
+            animation: MoveUpDown 20s linear infinite;
+        }
+
+        /* angular */
+        .object7 {
+            top: 50%;
+            right: 50%;
+            height: 60px;
+            animation: MoveDownUp 8s linear infinite;
+        }
+
+        /* js */
+        .object8 {
+            top: 100px;
+            right: 40%;
+            height: 50px;
+            animation: MoveUpDown 14s linear infinite;
+        }
+
+        /* nodejs */
+        .object9 {
+            top: 25%;
+            left: 25%;
+            height: 60px;
+            animation: MoveDownUp 15s linear infinite;
+        }
+
+        /* bootstarp */
+        .object10 {
+            bottom: 2.5%;
+            left: 45%;
+            height: 30px;
+            animation: MoveUpDown 10s linear infinite;
+        }
+
+        @keyframes MoveUpDown {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-60px);
+            }
+        }
+
+        @keyframes MoveDownUp {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(60px);
+            }
+        }
+
+        #overlay {
+            position: fixed;
+            text-align: center;
+            left: 0;
+            top: 5%;
+            width: 100%;
+            height: 50px;
+            /* background: rgba(255, 255, 255, 0.5); */
+            background: rgba(225, 225, 225, 0.5);
+            backdrop-filter: blur(5px);
+        }
+    </style>
+</head>
+
+<body>
+    <img class="object object1" src="icons8-mongodb.svg" alt="" srcset="">
+    <img class="object object2" src="icons8-css3.svg" alt="" srcset="">
+    <img class="object object3" src="icons8-flutter.svg" alt="" srcset="">
+    <img class="object object4" src="icons8-git.svg" alt="" srcset="">
+    <img class="object object5" src="icons8-github.svg" alt="" srcset="">
+    <img class="object object6" src="icons8-python.svg" alt="" srcset="">
+    <img class="object object7" src="icons8-angularjs.svg" alt="" srcset="">
+    <img class="object object8" src="icons8-node-js.svg" alt="" srcset="">
+    <img class="object object9" src="icons8-nodejs.svg" alt="" srcset="">
+    <img class="object object10" src="icons8-bootstrap.svg" alt="" srcset="">
+
+    <div id="overlay">
+        <h2>Hey There Myself Utsav Shekh</h2>
+    </div>
+</body>
+
+</html>
